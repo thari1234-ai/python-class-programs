@@ -1,0 +1,3 @@
+import gc
+collected=gc.collect()#it will show how many its collected 
+print(collected)
