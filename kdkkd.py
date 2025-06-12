@@ -1,0 +1,11 @@
+p=float(input())
+r=float(input())
+n=float(input())
+interest=(p*n*r)/100
+amount=p+interest
+discount=(interest*2)/100
+final=amount-discount
+print(f"{interest:.2f}")
+print(f"{amount:.2f}")
+print(f"{discount:.2f}")
+print(f"{final:.2f}")
